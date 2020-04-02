@@ -8,7 +8,7 @@ const STORE = {
                 "tenth",
                 "hundredth"
             ],
-            answer: "second"
+            answer: "1"
         },
         {
             question: "There are about __ recognized species of mollusk.",
@@ -18,7 +18,7 @@ const STORE = {
                 "85,000",
                 "1.25 million"
             ],
-            answer: "85,000"
+            answer: "3"
         },
         {
             question: "Mollusks are the largest marine phylum, comprising about __ of all the named marine organisms.",
@@ -28,7 +28,7 @@ const STORE = {
                 "10%",
                 "23%"
             ],
-            answer: "23%"
+            answer: "4"
         },
         {
             question: "The word mollusk originated from the Latin <i>molluscus</i>, from mollis, meaning what?",
@@ -38,7 +38,7 @@ const STORE = {
                 "Short",
                 "Smooth"
             ],
-            answer: "Soft"
+            answer: "2"
         },
         {
             question: "Of the 9 commonly recognized classes of mollusks, how many are extinct?",
@@ -48,7 +48,7 @@ const STORE = {
                 "7",
                 "none"
             ],
-            answer: "2"
+            answer: "1"
         },
         {
             question: "The __ account for about 80% of the total classified species.",
@@ -58,7 +58,7 @@ const STORE = {
                 "Cephalopods",
                 "Monoplacophorans"
             ],
-            answer: "Gastropods"
+            answer: "1"
         },
         {
             question: "Which class of mollusk are among the most neurologically advanced of all invertebrates?",
@@ -68,7 +68,7 @@ const STORE = {
                 "Scaphopods",
                 "Polyplacophores"
             ],
-            answer: "Cephalopods"
+            answer: "2"
         },
         {
             question: "The __ is the largest known invertebrate species.",
@@ -78,7 +78,7 @@ const STORE = {
                 "Giant Shipworm",
                 "Colossal Squid"
             ],
-            answer: "Colossal Squid"
+            answer: "4"
         },
         {
             question: "Good evidence suggests that mollusks first appeared in what time period?",
@@ -88,7 +88,7 @@ const STORE = {
                 "Devonian",
                 "Neogene"
             ],
-            answer: "Cambrian"
+            answer: "1"
         },
         {
             question: "Which of these anatomical features is unique to mollusks?",
@@ -98,9 +98,9 @@ const STORE = {
                 "Gill",
                 "Spinneret"
             ],
-            answer: "Radula"
-        },
+            answer: "2"
+        }
     ],
-    currentQuestion: 0,
+    questionNum: 0,
     score: 0
 };
