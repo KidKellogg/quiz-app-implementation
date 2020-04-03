@@ -18,7 +18,7 @@ function renderQuestion() {
                 <div class="choices">
                 </div>
                 <button type="submit" class="submit button">Submit</button>
-                <button type="button" class="next-question">Next</button>
+                <button type="button" class="next-question button">Next</button>
             </fieldset>
             </form>
         </div>`);

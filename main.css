@@ -1,15 +1,87 @@
+/*
+    font-family: 'Spicy Rice', cursive;
+    font-family: 'Lato', sans-serif;
+*/
+
+.background {
+    background: url(images/sea_shells.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+}
+
+.header li {
+    display: inline-block;
+    margin: 1em;
+    list-style: none;
+    font-size: 1.3em;
+}
+
 .question-area {
+    font-family: 'Lato', sans-serif;
     background-color: gray;
+    box-sizing: border-box;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between:
+}
+
+.choices {
+    margin-top: 0.5em;
+}
+
+fieldset {
+    border: none;
+    align-items: center;
+    padding: 40px;
+    margin:0 auto;
+}
+
+.question-and-score {
+    font-family: 'Lato', sans-serif;
+    background-color: #068d9d;
 }
 
 .images {
-    width: 200px;
+    margin-bottom: 0.5em;
+    width: 90%;
+    max-width: 240px;
+    padding: 0.5em;
 }
-/*
-.background {
-    background: url(images/sea_shells.jpg) fixed;
-}
-*/
+
 h1 {
-    background-color: grey;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 60px;
+    margin: 0.5em;
+    text-align: center;
+    color: #068d9d;
+    background-color: #2e282a;
+    width: auto;
 }
+
+.button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3em;
+    cursor: pointer;
+    border: 0.1em black solid;
+    background-color: #02c3bd;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #009b72;
+    color: #ffffff;
+  }
