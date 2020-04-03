@@ -79,12 +79,33 @@ function nextQuestion() {
 }
 //render the final results
 function displayResults() {
+    if (STORE.score >= 7) {
     const resultsHtml = $(`
         <div>
-            <p>You got ${STORE.score} correct.</p>
+            <p>You got ${STORE.score} correct. You know a lot about mollusks!</p>
+            <img src="images/octopus.jpg" alt="octopus swimming in ocean" class="images" /> </br>
             <button type="submit" class="reset button">Reset</button>
         </div>`);
     $("main").html(resultsHtml);
+    }
+    else if (STORE.score < 7 && STORE.score >= 5) {
+        const resultsHtml = $(`
+        <div>
+            <p>You got ${STORE.score} correct. You know a little bit about mollusks!</p>
+            <img src="images/clam.jpg" alt="clam in ocean" class="images" /> </br>
+            <button type="submit" class="reset button">Reset</button>
+        </div>`);
+    $("main").html(resultsHtml);
+    }
+    else if (STORE.score < 4) {
+        const resultsHtml = $(`
+        <div>
+            <p>You got ${STORE.score} correct. You should study mollusks more!</p>
+            <img src="images/snail.jpg" alt="snail in ocean" class="images" /> </br>
+            <button type="submit" class="reset button">Reset</button>
+        </div>`);
+    $("main").html(resultsHtml);
+    }
 }
 //handle resetting quiz
 function resetQuiz() {
